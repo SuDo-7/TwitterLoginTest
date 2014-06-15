@@ -1,0 +1,68 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     
+    <!-- Twitter Login Button -->
+    <Button android:id="@+id/btnLoginTwitter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with Twitter"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"/>
+     
+    <!-- user name label -->
+    <TextView android:id="@+id/lblUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"/>
+ 
+    <!-- label search hashtag -->
+    <TextView android:id="@+id/lblSearch"
+        android:text="Search Hashtag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:visibility="gone"/>
+     
+    <!-- Search EditText -->
+    <EditText android:id="@+id/txtSearchHashtag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:visibility="gone"/>
+     
+    <!-- Search Button -->
+    <Button android:id="@+id/btnSearchHashtag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:visibility="gone"/>
+         
+    <!-- Twitter Logout button -->
+    <Button android:id="@+id/btnLogoutTwitter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout from Twitter"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:visibility="gone"/>
+    
+    <!-- Search ListView -->
+    <ListView android:id="@+id/searchListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:visibility="gone">
+    </ListView>
+ 
+</LinearLayout>
